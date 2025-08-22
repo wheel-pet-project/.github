@@ -23,19 +23,19 @@
 ## Микросервисы
 
 #### BFF-шлюзы:
-- [x] Customer
-- [x] Employee
+- [x] [Customer](https://github.com/wheel-pet-project/customer-bff "Ссылка на репозиторий")
+- [x] [Employee](https://github.com/wheel-pet-project/employee-bff "Ссылка на репозиторий") 
 В планах разделить Employee на большее количество более автономных BFF.
 
 #### Доменные сервисы:
 - [x] [Identity](https://github.com/wheel-pet-project/identity "Ссылка на репозиторий") — Микросервис аутентификации и авторизации
-- [x] Notification — Микросервис уведомлений
-- [x] DrivingLicense — Микросервис подтверждения и отслеживания актуальности водительстких прав
-- [x] Booking — Микросервис бронирования
-- [x] VehicleCheck — Микросервис проверки состояния автомобиля клиентом перед арендой
-- [x] VehicleDocuments — Микросервис для хранения документов от авто
-- [x] VehicleFleet — Микросервис управления автопарком
-- [x] Rent — Микросервис аренды авто
+- [x] [Notification](https://github.com/wheel-pet-project/notification "Ссылка на репозиторий") — Микросервис уведомлений
+- [x] [DrivingLicense](https://github.com/wheel-pet-project/drivinglicense "Ссылка на репозиторий") — Микросервис подтверждения и отслеживания актуальности водительстких прав
+- [x] [Booking](https://github.com/wheel-pet-project/booking "Ссылка на репозиторий") — Микросервис бронирования
+- [x] [VehicleCheck](https://github.com/wheel-pet-project/car-check "Ссылка на репозиторий") — Микросервис проверки состояния автомобиля клиентом перед арендой
+- [x] [VehicleDocuments](https://github.com/wheel-pet-project/vehicle-docs "Ссылка на репозиторий") — Микросервис для хранения документов от авто
+- [x] [VehicleFleet](https://github.com/wheel-pet-project/vehicle-fleet "Ссылка на репозиторий") — Микросервис управления автопарком
+- [x] [Rent](https://github.com/wheel-pet-project/rent "Ссылка на репозиторий") — Микросервис аренды авто
 
 ![](/assets/images/wheel-diagramm.png)
 
