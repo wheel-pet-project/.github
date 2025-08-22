@@ -25,6 +25,7 @@
 #### BFF-шлюзы:
 - [x] [Customer](https://github.com/wheel-pet-project/customer-bff "Ссылка на репозиторий")
 - [x] [Employee](https://github.com/wheel-pet-project/employee-bff "Ссылка на репозиторий") 
+
 В планах разделить Employee на большее количество более автономных BFF.
 
 #### Доменные сервисы:
