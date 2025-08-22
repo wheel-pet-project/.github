@@ -23,10 +23,10 @@
 ## Микросервисы
 
 #### BFF-шлюзы:
-- [x] [Customer](https://github.com/wheel-pet-project/customer-bff "Ссылка на репозиторий")
-- [x] [Employee](https://github.com/wheel-pet-project/employee-bff "Ссылка на репозиторий") 
+- [x] [Customer BFF](https://github.com/wheel-pet-project/customer-bff "Ссылка на репозиторий")
+- [x] [Employee BFF](https://github.com/wheel-pet-project/employee-bff "Ссылка на репозиторий") 
 
-В планах разделить Employee на большее количество более автономных BFF.
+В планах разделить Employee на большее количество BFF (для каждого потребителя, то есть Employee BFF → Hr BFF, Support Bff и т.д.).
 
 #### Доменные сервисы:
 - [x] [Identity](https://github.com/wheel-pet-project/identity "Ссылка на репозиторий") — Микросервис аутентификации и авторизации
