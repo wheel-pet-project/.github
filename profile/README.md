@@ -55,7 +55,7 @@
 
 Коммуникации: gRPC (BFF ↔ сервисы), Kafka (события)
 
-Данные: PostgreSQL (ORM EF Core + Dapper, Npgsql)
+Данные: PostgreSQL (ORM EF Core + Dapper, Npgsql), YandexS3 для хранения фотографий (интеграция при помощи Amazon SDK для S3)
 
 Надежность: MassTransit (+ Kafka), Quartz, Polly
 
