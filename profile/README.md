@@ -51,13 +51,13 @@
 
 ## Технологический стек
 
-Платформа: .NET 8, ASP.NET Core (gRPC)
+Платформа: .NET 8, ASP.NET Core
 
-Коммуникации: gRPC (BFF ↔ сервисы), Kafka (события)
+Коммуникации: gRPC (BFF ↔ сервисы), Kafka (сервис ↔ сервис)
 
 Данные: PostgreSQL (ORM EF Core + Dapper, Npgsql), YandexS3 для хранения фотографий (интеграция при помощи Amazon SDK для S3)
 
-Надежность: MassTransit (+ Kafka), Quartz, Polly
+Надежность: MassTransit, Quartz, Polly
 
 Безопасность: JWT, BCrypt
 
@@ -65,7 +65,7 @@
 
 Тесты: xUnit, Moq, Testcontainers
 
-Инфраструктура: Docker, Docker Compose
+Инфраструктура: Docker
 
 ## Тестирование
 
